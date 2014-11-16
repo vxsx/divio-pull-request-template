@@ -1,0 +1,26 @@
+{
+  "name": "divio-pull-request-template",
+  "version": "0.0.0",
+  "description": "Simple bookmarklet to fill pull request description from template",
+  "main": "bookmarklet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vxsx/divio-pull-request-template.git"
+  },
+  "keywords": [
+    "bookmarklet"
+  ],
+  "author": "Vadim Sikora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vxsx/divio-pull-request-template/issues"
+  },
+  "homepage": "https://github.com/vxsx/divio-pull-request-template",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-inject": "^1.0.2"
+  }
+}
