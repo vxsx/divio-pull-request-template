@@ -45,7 +45,7 @@
 <body>
     <div>
         <h1>Pull Request Template Bookmarklet</h1>
-        <p><a href="javascript:(function(){var e=document.querySelector('[name=\'pull_request[body]\']');if(!e)e=document.querySelector('[name=`'issue[body]`']');if(e)e.value+=/* inject:template.md */'**This pull request fixes the following issues**:\n\n- Github Issue #123...\n- JIRA link...\n\n**You can preview the link locally within** `/path/to/template` **which has been approved for**:\n\n- [ ] responsive behaviour tested\n- [ ] browser and device tested\n- [ ] passes validation (html / bootstrap)\n- [ ] SEO optimized (html outline)\n- [ ] printability (print css)\n- [ ] doesn’t break anything else\n\n\n**Unrelated changes**:\n\n- Additionally fixed...\n- ...\n';/* endinject */})();">Pull Request Template</a></p>
+        <p><a href="javascript:(function(){var e=document.querySelector('[name=\'pull_request[body]\']');if(!e)e=document.querySelector('[name=\'issue[body]\']');if(e)e.value+=/* inject:template.md */'**This pull request fixes the following issues**:\n\n- Github Issue #123...\n- JIRA link...\n\n**You can preview the link locally within** `/path/to/template` **which has been approved for**:\n\n- [ ] responsive behaviour tested\n- [ ] browser and device tested\n- [ ] passes validation (html / bootstrap)\n- [ ] SEO optimized (html outline)\n- [ ] printability (print css)\n- [ ] doesn’t break anything else\n\n\n**Unrelated changes**:\n\n- Additionally fixed...\n- ...\n';/* endinject */})();">Pull Request Template</a></p>
         <p>Drag this to bookmarks bar</p>
     </div>
 </body>
