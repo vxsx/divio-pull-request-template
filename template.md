@@ -1,7 +1,6 @@
 **This pull request fixes the following issues**:
 
-- Github Issue #123...
-- JIRA link...
+- https://divio-ch.atlassian.net/browse/
 
 **You can preview the changes within** `/path/to/preview`:
 
