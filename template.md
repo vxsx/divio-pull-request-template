@@ -10,7 +10,6 @@
 - [ ] SEO optimized (html outline)
 - [ ] printability (print css)
 - [ ] doesn’t break anything else
-- [ ] ready for merge (QA approved)
 
 **Additional information**:
 
