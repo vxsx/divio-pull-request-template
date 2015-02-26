@@ -1,4 +1,4 @@
-{{ issue.key }} - {{ issue.fields.summary }}
+{{ issue.key }} – {{ issue.fields.summary }}
 
 **This pull request fixes the following issues**:
 
